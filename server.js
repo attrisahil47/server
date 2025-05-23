@@ -10,7 +10,7 @@ const routes = require("./Routes")
 backend.use(express.json());
  
 backend.use(cors({
-    origin: ["https://frontend-one-gold-26.vercel.app"],
+    origin: ["https://frontend-one-gold-26.vercel.app", "https://admin-theta-tan.vercel.app"],
     methods: ["GET", "PUT", "PATCH", "POST", "DELETE"]
 
 })
